@@ -107,7 +107,7 @@ static int testStringResult(int testNum,
     
     /* Now check the string */
     int strTest = strcmp((char *)nameStrPtr, 
-                         "Hello. My name is Julio Miyazaqui.");
+                         "Hello. My name is Inigo Montoya.");
     if (strTest == 0) // Make sure it changed! 0 means strs are equal
     {
         s2 = fail;  // assign the failure string to s1
@@ -352,4 +352,3 @@ int main ( void )
 /*******************************************************************************
  End of File
 */
-
