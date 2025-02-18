@@ -56,7 +56,7 @@ asmFunc:
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
 
-
+        add r0, r0, r1  /* Add r0 and r1, store result in r0 */
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
     /* restore the caller's registers, as required by the 
